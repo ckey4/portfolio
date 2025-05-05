@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chetan's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="top-left">
+      <img src="/WhatsApp Image 2025-03-30 at 23.26.11.jpeg" alt="Chetan Photo">
+    </div>
+    <nav class="top-right">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#" id="openVideos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="center-content">
+      <h1>Hello, I'm <span style="color: #7f5af0;">Chetan Kashniyal</span></h1>
+      <div class="typing">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-below">
+      <br> <br>
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Chetan Kashniyal</strong>. I am from Pithoragarh, Uttarakhand — a place known for its natural beauty and rich cultural heritage.</p>
+      <p>Talking about my academic journey, I am currently pursuing a <strong>B.Tech in Computer Science</strong> from <strong>Graphic Era Hill University</strong>. I am in my second year and passionate about coding and technology. I truly enjoy solving coding challenges and working hard to achieve my dream job in the tech industry.</p>
+    </div>
+  </section>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="video-modal hidden">
+    <div class="video-modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2>My Videos</h2>
+      <div class="video-gallery">
+        <div class="video-item">
+          <video controls>
+            <source src="WIN_20250503_15_49_52_Pro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-desc">Introduction</p>
+        </div>
+        <div class="video-item">
+          <video controls>
+            <source src="WIN_20250503_16_07_43_Pro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-desc">Career Objective</p>
+        </div>
+        <div class="video-item">
+          <video controls>
+            <source src="WIN_20250503_16_31_25_Pro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-desc">projects and interests</p>
+        </div>
+        <div class="video-item">
+          <video controls>
+            <source src="WIN_20250503_17_40_49_Pro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-desc">Hobbies</p>
+        </div>
+        <div class="video-item">
+          <video controls>
+            <source src="WIN_20250503_18_15_25_Pro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-desc">Weakness.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
